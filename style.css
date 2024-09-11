@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #4d4d4d;
+  color: #eaf3f7;
+}
+img {
+  width: 15%;
+  border-radius: 5%;
+}
+#h1 {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+footer {
+  height: 100px;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.datum {
+  font-size: 60px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text {
+  font-size: 20px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 30px;
+}
+.img {
+  width: 30%;
+}
+
+@media (min-width: 950px) and (max-width: 1070px) {
+  #h1{
+    font-size: 60px;
+  }
+}
+@media (min-width: 750px) and (max-width: 950px) {
+  #h1{
+    font-size: 40px;
+    padding: 50px;
+  }
+  .img{
+    width:50%;
+  }
+  .datum{
+    font-size: 50px;
+  }
+}
+@media (min-width: 550px) and (max-width: 750px) {
+  #h1{
+    font-size: 35px;
+    padding: 50px;
+  }
+  .img{
+    width:50%;
+  }
+  .datum{
+    font-size: 40px;
+  }
+}
+@media (min-width: 450px) and (max-width: 550px) {
+  #h1{
+    font-size: 30px;
+    padding: 50px;
+  }
+  .img{
+    width:60%;
+  }
+  .datum{
+    font-size: 40px;
+  }
+}
+@media (min-width: 350px) and (max-width: 450px) {
+  #h1{
+    font-size: 40px;
+    padding: 50px;
+  }
+  .img{
+    width:70%;
+  }
+  .datum{
+    font-size: 40px;
+  }
+}
+@media (min-width: 250px) and (max-width: 350px) {
+  #h1{
+    font-size: 30px;
+    padding: 20px;
+  }
+  .img{
+    width:90%;
+  }
+  .datum{
+    font-size: 40px;
+  }
+}
